@@ -1,0 +1,32 @@
+
+Start
+    count = 0
+    num1 = 0
+    num2 = 1
+    input n
+    if (n <= 0) then
+        print "Enter Positive Value"
+    else if (n == 1)
+        print "fibonacci 1 is : 0"
+    else 
+        while (count < n ) do
+            print (num1)
+            num3 = num1 + num2
+            num1 = num2
+            num2 = num3
+            count = count + 1
+End
+
+
+Start
+    fac = 1
+    input n
+    if (n <= 0)
+        print "enter a positive number"
+    else
+        while (n > 1)
+            fac = fac * n
+            n = (n - 1)
+        print fac
+        end while
+End
